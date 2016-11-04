@@ -12,7 +12,12 @@ To use this this bot, follow facebook steps:
     ```sh
     $ gem install
 
- 3. Run the bot.
+
+ 2. Install required gems.
+    ```sh
+    $ gem install
+
+3. Run the bot.
     ```sh
     $ PAGE_TOKEN=<PAGE_TOKEN> VERIFY_TOKEN=<YOUR_VERIFY_TOKEN> CHAT_BOT_ID=<CHAT_BOT_ID> ruby bot.rb
 
