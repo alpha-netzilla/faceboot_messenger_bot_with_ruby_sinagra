@@ -9,14 +9,11 @@ $stdout.sync = true
 
 set :port, ENV['PORT'] || 4567
 
-# A chat_bot_id equals a facebook page id which we can see on facebook bage.
 set :chat_bot_id, ENV['CHAT_BOT_ID']
 
-# Page access token which we can see on facebook developper page.
 set :page_token, ENV['PAGE_TOKEN']
 set :endpoint, "https://graph.facebook.com/v2.6/me/messages?access_token=#{settings.page_token}"
 
-# An arbitrary token which we can creat on facebook developer page.
 set :verify_token, ENV['VERIFY_TOKEN']
 
 
