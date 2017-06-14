@@ -17,7 +17,7 @@ This is a Facebook Messenger Bot written in Ruby with the help of Sinatra.
     ```
     PAGE_TOKEN  : Like a password which we can see on the facebook developper page.  
     VERIFY_TOKEN: An arbitrary keyword which we can creat on the facebook developer page.  
-    CHAT_BOT_ID : Equals a facebook page id which we can see on the facebook bage.  
+    CHAT_BOT_ID : Equals a facebook page id which we can see on the facebook page.  
 
  4. Test the bot  
    Say something like "test aaa", "test bbb", "test ccc", "test ddd" whose comments are for test scenario.
