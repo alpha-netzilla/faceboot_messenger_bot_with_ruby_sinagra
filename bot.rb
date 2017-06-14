@@ -7,6 +7,8 @@ require "json"
 
 $stdout.sync = true
 
+set :bind, '0.0.0.0'
+
 set :port, ENV['PORT'] || 4567
 
 set :chat_bot_id, ENV['CHAT_BOT_ID']
