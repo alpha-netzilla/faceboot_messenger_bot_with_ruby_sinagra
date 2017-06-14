@@ -7,14 +7,14 @@ This is a Facebook Messenger Bot written in Ruby with the help of Sinatra.
  1. Prepare your facebook messanger platform at https://developers.facebook.com/docs/messenger-platform
 
  2. Install required gems
-    ```ruby
+    ``ruby
     $ gem install
-    ```
+    ``
 
  3. Run the bot
-    ```ruby
+    ``ruby
     $ PAGE_TOKEN=<PAGE_TOKEN> VERIFY_TOKEN=<YOUR_VERIFY_TOKEN> CHAT_BOT_ID=<CHAT_BOT_ID> ruby bot.rb
-    ```
+    ``
     PAGE_TOKEN  : Like a password which we can see on the facebook developper page.  
     VERIFY_TOKEN: An arbitrary keyword which we can creat on the facebook developer page.  
     CHAT_BOT_ID : Equals a facebook page id which we can see on the facebook bage.  
